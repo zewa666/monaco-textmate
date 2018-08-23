@@ -3,6 +3,9 @@
 		"target": "esnext",
 		"module": "commonjs",
 		"outDir": "dist",
+		"lib": [
+			"es2016"
+		],
 		"declarationDir": "dist/typings",
 		"noImplicitAny": false,
 		"sourceMap": true,
