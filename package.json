@@ -18,7 +18,8 @@
     "compile": "npm run compile-esnext && npm run compile-es5",
     "compile-esnext": "tsc --target esnext --outDir dist/esnext",
     "compile-es5": "tsc --target es5 --outDir dist/es5",
-    "prepublish": "npm run compile"
+    "prepublish": "npm run compile",
+    "postinstall": "npm run compile"
   },
   "dependencies": {
     "fast-plist": "^0.1.2"
